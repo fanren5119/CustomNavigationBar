@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A23C48B8223B3EFC00EB4F71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A23C48B7223B3EFC00EB4F71 /* AppDelegate.m */; };
+		A23C48BB223B3EFC00EB4F71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23C48BA223B3EFC00EB4F71 /* ViewController.m */; };
+		A23C48BE223B3EFC00EB4F71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23C48BC223B3EFC00EB4F71 /* Main.storyboard */; };
+		A23C48C0223B3EFF00EB4F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23C48BF223B3EFF00EB4F71 /* Assets.xcassets */; };
+		A23C48C3223B3EFF00EB4F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23C48C1223B3EFF00EB4F71 /* LaunchScreen.storyboard */; };
+		A23C48C6223B3EFF00EB4F71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A23C48C5223B3EFF00EB4F71 /* main.m */; };
+		A23C48CE223B3F6000EB4F71 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23C48CD223B3F6000EB4F71 /* FirstViewController.m */; };
+		A23C48D1223B3FF400EB4F71 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23C48D0223B3FF400EB4F71 /* SecondViewController.m */; };
+		A2C8B3D6225C8023005794B5 /* PinkieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B3D5225C8023005794B5 /* PinkieViewController.m */; };
+		A2C8B3D9225C8040005794B5 /* PinkieNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B3D8225C8040005794B5 /* PinkieNavigationController.m */; };
+		A2C8B3E4225C8E3B005794B5 /* PinkieNavigationDelegateImp.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B3E3225C8E3B005794B5 /* PinkieNavigationDelegateImp.m */; };
+		A2C8B3E7225C8E52005794B5 /* PinkieNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B3E6225C8E51005794B5 /* PinkieNavigationView.m */; };
+		A2C8B3EA225C8E77005794B5 /* PinkieNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B3E9225C8E77005794B5 /* PinkieNavigationItem.m */; };
+		A2C8B3EE225C8EAB005794B5 /* PinkieItemFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B3ED225C8EAB005794B5 /* PinkieItemFactory.m */; };
+		A2C8B3F2225C8EC6005794B5 /* PinkieBarButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B3F1225C8EC6005794B5 /* PinkieBarButtonView.m */; };
+		A2C8B3F9225C8F0C005794B5 /* PinkieImageBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B3F8225C8F0C005794B5 /* PinkieImageBarButtonItem.m */; };
+		A2C8B3FC225C8F18005794B5 /* PinkieTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B3FB225C8F18005794B5 /* PinkieTitleBarButtonItem.m */; };
+		A2C8B3FF225C8F2F005794B5 /* PinkieDoubleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B3FE225C8F2F005794B5 /* PinkieDoubleBarButtonItem.m */; };
+		A2C8B402225C8F54005794B5 /* PinkieImageBarButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B401225C8F54005794B5 /* PinkieImageBarButtonView.m */; };
+		A2C8B405225C8F68005794B5 /* PinkieTitleBarButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B404225C8F68005794B5 /* PinkieTitleBarButtonView.m */; };
+		A2C8B408225C8F72005794B5 /* PinkieDoubleBarButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B407225C8F72005794B5 /* PinkieDoubleBarButtonView.m */; };
+		A2C8B40B225C8F9E005794B5 /* PinkiePushAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B40A225C8F9E005794B5 /* PinkiePushAnimatedTransitioning.m */; };
+		A2C8B40F225C8FD4005794B5 /* PinkiePopAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B40E225C8FD4005794B5 /* PinkiePopAnimatedTransitioning.m */; };
+		A2C8B413225C8FF8005794B5 /* PinkieNavPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B412225C8FF8005794B5 /* PinkieNavPopAnimation.m */; };
+		A2C8B416225C900A005794B5 /* PinkiePopHideNavAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B415225C900A005794B5 /* PinkiePopHideNavAnimation.m */; };
+		A2C8B41C225C9021005794B5 /* PinkiePopShowNavAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B41B225C9021005794B5 /* PinkiePopShowNavAnimation.m */; };
+		A2C8B41F225C902E005794B5 /* PinkiePopChangeNavAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B41E225C902E005794B5 /* PinkiePopChangeNavAnimation.m */; };
+		A2C8B422225C905E005794B5 /* PinkiePopInteractiveTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B421225C905E005794B5 /* PinkiePopInteractiveTransitioning.m */; };
+		A2C8B425225C9075005794B5 /* PinkieNavPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B424225C9075005794B5 /* PinkieNavPushAnimation.m */; };
+		A2C8B428225C9082005794B5 /* PinkiePushHideNavAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B427225C9082005794B5 /* PinkiePushHideNavAnimation.m */; };
+		A2C8B42B225C908D005794B5 /* PinkiePushShowNavAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B42A225C908D005794B5 /* PinkiePushShowNavAnimation.m */; };
+		A2C8B42E225C90A9005794B5 /* PinkiePushChangeNavAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B42D225C90A9005794B5 /* PinkiePushChangeNavAnimation.m */; };
+		A2C8B431225CAF3E005794B5 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8B430225CAF3E005794B5 /* ViewController2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2395A03225C484200A7A885 /* NaviTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NaviTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		A23C48B3223B3EFC00EB4F71 /* NaviTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23C48B6223B3EFC00EB4F71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A23C48B7223B3EFC00EB4F71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A23C48B9223B3EFC00EB4F71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A23C48BA223B3EFC00EB4F71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A23C48BD223B3EFC00EB4F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A23C48BF223B3EFF00EB4F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A23C48C2223B3EFF00EB4F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A23C48C4223B3EFF00EB4F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23C48C5223B3EFF00EB4F71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A23C48CC223B3F6000EB4F71 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A23C48CD223B3F6000EB4F71 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A23C48CF223B3FF400EB4F71 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A23C48D0223B3FF400EB4F71 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A2C8B3D4225C8023005794B5 /* PinkieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieViewController.h; sourceTree = "<group>"; };
+		A2C8B3D5225C8023005794B5 /* PinkieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieViewController.m; sourceTree = "<group>"; };
+		A2C8B3D7225C8040005794B5 /* PinkieNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieNavigationController.h; sourceTree = "<group>"; };
+		A2C8B3D8225C8040005794B5 /* PinkieNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieNavigationController.m; sourceTree = "<group>"; };
+		A2C8B3E2225C8E3B005794B5 /* PinkieNavigationDelegateImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieNavigationDelegateImp.h; sourceTree = "<group>"; };
+		A2C8B3E3225C8E3B005794B5 /* PinkieNavigationDelegateImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieNavigationDelegateImp.m; sourceTree = "<group>"; };
+		A2C8B3E5225C8E51005794B5 /* PinkieNavigationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieNavigationView.h; sourceTree = "<group>"; };
+		A2C8B3E6225C8E51005794B5 /* PinkieNavigationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieNavigationView.m; sourceTree = "<group>"; };
+		A2C8B3E8225C8E77005794B5 /* PinkieNavigationItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieNavigationItem.h; sourceTree = "<group>"; };
+		A2C8B3E9225C8E77005794B5 /* PinkieNavigationItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieNavigationItem.m; sourceTree = "<group>"; };
+		A2C8B3EC225C8EAB005794B5 /* PinkieItemFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieItemFactory.h; sourceTree = "<group>"; };
+		A2C8B3ED225C8EAB005794B5 /* PinkieItemFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieItemFactory.m; sourceTree = "<group>"; };
+		A2C8B3F0225C8EC6005794B5 /* PinkieBarButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieBarButtonView.h; sourceTree = "<group>"; };
+		A2C8B3F1225C8EC6005794B5 /* PinkieBarButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieBarButtonView.m; sourceTree = "<group>"; };
+		A2C8B3F4225C8EED005794B5 /* PinkieBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieBarButtonItem.h; sourceTree = "<group>"; };
+		A2C8B3F7225C8F0C005794B5 /* PinkieImageBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieImageBarButtonItem.h; sourceTree = "<group>"; };
+		A2C8B3F8225C8F0C005794B5 /* PinkieImageBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieImageBarButtonItem.m; sourceTree = "<group>"; };
+		A2C8B3FA225C8F18005794B5 /* PinkieTitleBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieTitleBarButtonItem.h; sourceTree = "<group>"; };
+		A2C8B3FB225C8F18005794B5 /* PinkieTitleBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieTitleBarButtonItem.m; sourceTree = "<group>"; };
+		A2C8B3FD225C8F2F005794B5 /* PinkieDoubleBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieDoubleBarButtonItem.h; sourceTree = "<group>"; };
+		A2C8B3FE225C8F2F005794B5 /* PinkieDoubleBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieDoubleBarButtonItem.m; sourceTree = "<group>"; };
+		A2C8B400225C8F54005794B5 /* PinkieImageBarButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieImageBarButtonView.h; sourceTree = "<group>"; };
+		A2C8B401225C8F54005794B5 /* PinkieImageBarButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieImageBarButtonView.m; sourceTree = "<group>"; };
+		A2C8B403225C8F68005794B5 /* PinkieTitleBarButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieTitleBarButtonView.h; sourceTree = "<group>"; };
+		A2C8B404225C8F68005794B5 /* PinkieTitleBarButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieTitleBarButtonView.m; sourceTree = "<group>"; };
+		A2C8B406225C8F72005794B5 /* PinkieDoubleBarButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieDoubleBarButtonView.h; sourceTree = "<group>"; };
+		A2C8B407225C8F72005794B5 /* PinkieDoubleBarButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieDoubleBarButtonView.m; sourceTree = "<group>"; };
+		A2C8B409225C8F9E005794B5 /* PinkiePushAnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkiePushAnimatedTransitioning.h; sourceTree = "<group>"; };
+		A2C8B40A225C8F9E005794B5 /* PinkiePushAnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkiePushAnimatedTransitioning.m; sourceTree = "<group>"; };
+		A2C8B40D225C8FD4005794B5 /* PinkiePopAnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkiePopAnimatedTransitioning.h; sourceTree = "<group>"; };
+		A2C8B40E225C8FD4005794B5 /* PinkiePopAnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkiePopAnimatedTransitioning.m; sourceTree = "<group>"; };
+		A2C8B411225C8FF8005794B5 /* PinkieNavPopAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieNavPopAnimation.h; sourceTree = "<group>"; };
+		A2C8B412225C8FF8005794B5 /* PinkieNavPopAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieNavPopAnimation.m; sourceTree = "<group>"; };
+		A2C8B414225C900A005794B5 /* PinkiePopHideNavAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkiePopHideNavAnimation.h; sourceTree = "<group>"; };
+		A2C8B415225C900A005794B5 /* PinkiePopHideNavAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkiePopHideNavAnimation.m; sourceTree = "<group>"; };
+		A2C8B41A225C9021005794B5 /* PinkiePopShowNavAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkiePopShowNavAnimation.h; sourceTree = "<group>"; };
+		A2C8B41B225C9021005794B5 /* PinkiePopShowNavAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkiePopShowNavAnimation.m; sourceTree = "<group>"; };
+		A2C8B41D225C902E005794B5 /* PinkiePopChangeNavAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkiePopChangeNavAnimation.h; sourceTree = "<group>"; };
+		A2C8B41E225C902E005794B5 /* PinkiePopChangeNavAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkiePopChangeNavAnimation.m; sourceTree = "<group>"; };
+		A2C8B420225C905E005794B5 /* PinkiePopInteractiveTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkiePopInteractiveTransitioning.h; sourceTree = "<group>"; };
+		A2C8B421225C905E005794B5 /* PinkiePopInteractiveTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkiePopInteractiveTransitioning.m; sourceTree = "<group>"; };
+		A2C8B423225C9075005794B5 /* PinkieNavPushAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkieNavPushAnimation.h; sourceTree = "<group>"; };
+		A2C8B424225C9075005794B5 /* PinkieNavPushAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkieNavPushAnimation.m; sourceTree = "<group>"; };
+		A2C8B426225C9082005794B5 /* PinkiePushHideNavAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkiePushHideNavAnimation.h; sourceTree = "<group>"; };
+		A2C8B427225C9082005794B5 /* PinkiePushHideNavAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkiePushHideNavAnimation.m; sourceTree = "<group>"; };
+		A2C8B429225C908D005794B5 /* PinkiePushShowNavAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkiePushShowNavAnimation.h; sourceTree = "<group>"; };
+		A2C8B42A225C908D005794B5 /* PinkiePushShowNavAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkiePushShowNavAnimation.m; sourceTree = "<group>"; };
+		A2C8B42C225C90A9005794B5 /* PinkiePushChangeNavAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinkiePushChangeNavAnimation.h; sourceTree = "<group>"; };
+		A2C8B42D225C90A9005794B5 /* PinkiePushChangeNavAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinkiePushChangeNavAnimation.m; sourceTree = "<group>"; };
+		A2C8B42F225CAF3E005794B5 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		A2C8B430225CAF3E005794B5 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A23C48B0223B3EFC00EB4F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A23C48AA223B3EFC00EB4F71 = {
+			isa = PBXGroup;
+			children = (
+				A23C48B5223B3EFC00EB4F71 /* NaviTest */,
+				A23C48B4223B3EFC00EB4F71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A23C48B4223B3EFC00EB4F71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23C48B3223B3EFC00EB4F71 /* NaviTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A23C48B5223B3EFC00EB4F71 /* NaviTest */ = {
+			isa = PBXGroup;
+			children = (
+				A23C48B6223B3EFC00EB4F71 /* AppDelegate.h */,
+				A23C48B7223B3EFC00EB4F71 /* AppDelegate.m */,
+				A23C48B9223B3EFC00EB4F71 /* ViewController.h */,
+				A23C48BA223B3EFC00EB4F71 /* ViewController.m */,
+				A2C8B42F225CAF3E005794B5 /* ViewController2.h */,
+				A2C8B430225CAF3E005794B5 /* ViewController2.m */,
+				A23C48CC223B3F6000EB4F71 /* FirstViewController.h */,
+				A23C48CD223B3F6000EB4F71 /* FirstViewController.m */,
+				A23C48CF223B3FF400EB4F71 /* SecondViewController.h */,
+				A23C48D0223B3FF400EB4F71 /* SecondViewController.m */,
+				A2C8B3E0225C8E08005794B5 /* PinkieNavigation */,
+				A23C48BC223B3EFC00EB4F71 /* Main.storyboard */,
+				A23C48BF223B3EFF00EB4F71 /* Assets.xcassets */,
+				A23C48C1223B3EFF00EB4F71 /* LaunchScreen.storyboard */,
+				A23C48C4223B3EFF00EB4F71 /* Info.plist */,
+				A23C48C5223B3EFF00EB4F71 /* main.m */,
+				A2395A03225C484200A7A885 /* NaviTest-Bridging-Header.h */,
+			);
+			path = NaviTest;
+			sourceTree = "<group>";
+		};
+		A2C8B3E0225C8E08005794B5 /* PinkieNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				A2C8B3D4225C8023005794B5 /* PinkieViewController.h */,
+				A2C8B3D5225C8023005794B5 /* PinkieViewController.m */,
+				A2C8B3E5225C8E51005794B5 /* PinkieNavigationView.h */,
+				A2C8B3E6225C8E51005794B5 /* PinkieNavigationView.m */,
+				A2C8B3EB225C8E7F005794B5 /* NavigationItem */,
+				A2C8B3E1225C8E23005794B5 /* NavigationController */,
+			);
+			path = PinkieNavigation;
+			sourceTree = "<group>";
+		};
+		A2C8B3E1225C8E23005794B5 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				A2C8B3D7225C8040005794B5 /* PinkieNavigationController.h */,
+				A2C8B3D8225C8040005794B5 /* PinkieNavigationController.m */,
+				A2C8B3E2225C8E3B005794B5 /* PinkieNavigationDelegateImp.h */,
+				A2C8B3E3225C8E3B005794B5 /* PinkieNavigationDelegateImp.m */,
+				A2C8B410225C8FD9005794B5 /* PopAnimation */,
+				A2C8B40C225C8FA5005794B5 /* PushAnimation */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		A2C8B3EB225C8E7F005794B5 /* NavigationItem */ = {
+			isa = PBXGroup;
+			children = (
+				A2C8B3E8225C8E77005794B5 /* PinkieNavigationItem.h */,
+				A2C8B3E9225C8E77005794B5 /* PinkieNavigationItem.m */,
+				A2C8B3F3225C8ECB005794B5 /* BarButtonView */,
+				A2C8B3EF225C8EAF005794B5 /* BarButtonItem */,
+			);
+			path = NavigationItem;
+			sourceTree = "<group>";
+		};
+		A2C8B3EF225C8EAF005794B5 /* BarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				A2C8B3EC225C8EAB005794B5 /* PinkieItemFactory.h */,
+				A2C8B3ED225C8EAB005794B5 /* PinkieItemFactory.m */,
+				A2C8B3F4225C8EED005794B5 /* PinkieBarButtonItem.h */,
+				A2C8B3F7225C8F0C005794B5 /* PinkieImageBarButtonItem.h */,
+				A2C8B3F8225C8F0C005794B5 /* PinkieImageBarButtonItem.m */,
+				A2C8B3FA225C8F18005794B5 /* PinkieTitleBarButtonItem.h */,
+				A2C8B3FB225C8F18005794B5 /* PinkieTitleBarButtonItem.m */,
+				A2C8B3FD225C8F2F005794B5 /* PinkieDoubleBarButtonItem.h */,
+				A2C8B3FE225C8F2F005794B5 /* PinkieDoubleBarButtonItem.m */,
+			);
+			path = BarButtonItem;
+			sourceTree = "<group>";
+		};
+		A2C8B3F3225C8ECB005794B5 /* BarButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				A2C8B3F0225C8EC6005794B5 /* PinkieBarButtonView.h */,
+				A2C8B3F1225C8EC6005794B5 /* PinkieBarButtonView.m */,
+				A2C8B400225C8F54005794B5 /* PinkieImageBarButtonView.h */,
+				A2C8B401225C8F54005794B5 /* PinkieImageBarButtonView.m */,
+				A2C8B403225C8F68005794B5 /* PinkieTitleBarButtonView.h */,
+				A2C8B404225C8F68005794B5 /* PinkieTitleBarButtonView.m */,
+				A2C8B406225C8F72005794B5 /* PinkieDoubleBarButtonView.h */,
+				A2C8B407225C8F72005794B5 /* PinkieDoubleBarButtonView.m */,
+			);
+			path = BarButtonView;
+			sourceTree = "<group>";
+		};
+		A2C8B40C225C8FA5005794B5 /* PushAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A2C8B409225C8F9E005794B5 /* PinkiePushAnimatedTransitioning.h */,
+				A2C8B40A225C8F9E005794B5 /* PinkiePushAnimatedTransitioning.m */,
+				A2C8B423225C9075005794B5 /* PinkieNavPushAnimation.h */,
+				A2C8B424225C9075005794B5 /* PinkieNavPushAnimation.m */,
+				A2C8B426225C9082005794B5 /* PinkiePushHideNavAnimation.h */,
+				A2C8B427225C9082005794B5 /* PinkiePushHideNavAnimation.m */,
+				A2C8B429225C908D005794B5 /* PinkiePushShowNavAnimation.h */,
+				A2C8B42A225C908D005794B5 /* PinkiePushShowNavAnimation.m */,
+				A2C8B42C225C90A9005794B5 /* PinkiePushChangeNavAnimation.h */,
+				A2C8B42D225C90A9005794B5 /* PinkiePushChangeNavAnimation.m */,
+			);
+			path = PushAnimation;
+			sourceTree = "<group>";
+		};
+		A2C8B410225C8FD9005794B5 /* PopAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A2C8B40D225C8FD4005794B5 /* PinkiePopAnimatedTransitioning.h */,
+				A2C8B40E225C8FD4005794B5 /* PinkiePopAnimatedTransitioning.m */,
+				A2C8B411225C8FF8005794B5 /* PinkieNavPopAnimation.h */,
+				A2C8B412225C8FF8005794B5 /* PinkieNavPopAnimation.m */,
+				A2C8B414225C900A005794B5 /* PinkiePopHideNavAnimation.h */,
+				A2C8B415225C900A005794B5 /* PinkiePopHideNavAnimation.m */,
+				A2C8B41A225C9021005794B5 /* PinkiePopShowNavAnimation.h */,
+				A2C8B41B225C9021005794B5 /* PinkiePopShowNavAnimation.m */,
+				A2C8B41D225C902E005794B5 /* PinkiePopChangeNavAnimation.h */,
+				A2C8B41E225C902E005794B5 /* PinkiePopChangeNavAnimation.m */,
+				A2C8B420225C905E005794B5 /* PinkiePopInteractiveTransitioning.h */,
+				A2C8B421225C905E005794B5 /* PinkiePopInteractiveTransitioning.m */,
+			);
+			path = PopAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A23C48B2223B3EFC00EB4F71 /* NaviTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23C48C9223B3F0000EB4F71 /* Build configuration list for PBXNativeTarget "NaviTest" */;
+			buildPhases = (
+				A23C48AF223B3EFC00EB4F71 /* Sources */,
+				A23C48B0223B3EFC00EB4F71 /* Frameworks */,
+				A23C48B1223B3EFC00EB4F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaviTest;
+			productName = NaviTest;
+			productReference = A23C48B3223B3EFC00EB4F71 /* NaviTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A23C48AB223B3EFC00EB4F71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = jiazhiyi;
+				TargetAttributes = {
+					A23C48B2223B3EFC00EB4F71 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = A23C48AE223B3EFC00EB4F71 /* Build configuration list for PBXProject "NaviTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A23C48AA223B3EFC00EB4F71;
+			productRefGroup = A23C48B4223B3EFC00EB4F71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A23C48B2223B3EFC00EB4F71 /* NaviTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A23C48B1223B3EFC00EB4F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23C48C3223B3EFF00EB4F71 /* LaunchScreen.storyboard in Resources */,
+				A23C48C0223B3EFF00EB4F71 /* Assets.xcassets in Resources */,
+				A23C48BE223B3EFC00EB4F71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A23C48AF223B3EFC00EB4F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C8B425225C9075005794B5 /* PinkieNavPushAnimation.m in Sources */,
+				A2C8B41F225C902E005794B5 /* PinkiePopChangeNavAnimation.m in Sources */,
+				A2C8B42E225C90A9005794B5 /* PinkiePushChangeNavAnimation.m in Sources */,
+				A2C8B428225C9082005794B5 /* PinkiePushHideNavAnimation.m in Sources */,
+				A23C48D1223B3FF400EB4F71 /* SecondViewController.m in Sources */,
+				A2C8B3FF225C8F2F005794B5 /* PinkieDoubleBarButtonItem.m in Sources */,
+				A2C8B3E4225C8E3B005794B5 /* PinkieNavigationDelegateImp.m in Sources */,
+				A2C8B3F9225C8F0C005794B5 /* PinkieImageBarButtonItem.m in Sources */,
+				A2C8B40B225C8F9E005794B5 /* PinkiePushAnimatedTransitioning.m in Sources */,
+				A23C48BB223B3EFC00EB4F71 /* ViewController.m in Sources */,
+				A2C8B408225C8F72005794B5 /* PinkieDoubleBarButtonView.m in Sources */,
+				A23C48C6223B3EFF00EB4F71 /* main.m in Sources */,
+				A2C8B42B225C908D005794B5 /* PinkiePushShowNavAnimation.m in Sources */,
+				A2C8B416225C900A005794B5 /* PinkiePopHideNavAnimation.m in Sources */,
+				A2C8B413225C8FF8005794B5 /* PinkieNavPopAnimation.m in Sources */,
+				A2C8B3FC225C8F18005794B5 /* PinkieTitleBarButtonItem.m in Sources */,
+				A2C8B41C225C9021005794B5 /* PinkiePopShowNavAnimation.m in Sources */,
+				A2C8B431225CAF3E005794B5 /* ViewController2.m in Sources */,
+				A2C8B3EA225C8E77005794B5 /* PinkieNavigationItem.m in Sources */,
+				A2C8B422225C905E005794B5 /* PinkiePopInteractiveTransitioning.m in Sources */,
+				A2C8B3E7225C8E52005794B5 /* PinkieNavigationView.m in Sources */,
+				A2C8B3D6225C8023005794B5 /* PinkieViewController.m in Sources */,
+				A2C8B3EE225C8EAB005794B5 /* PinkieItemFactory.m in Sources */,
+				A2C8B3F2225C8EC6005794B5 /* PinkieBarButtonView.m in Sources */,
+				A2C8B40F225C8FD4005794B5 /* PinkiePopAnimatedTransitioning.m in Sources */,
+				A23C48B8223B3EFC00EB4F71 /* AppDelegate.m in Sources */,
+				A23C48CE223B3F6000EB4F71 /* FirstViewController.m in Sources */,
+				A2C8B402225C8F54005794B5 /* PinkieImageBarButtonView.m in Sources */,
+				A2C8B3D9225C8040005794B5 /* PinkieNavigationController.m in Sources */,
+				A2C8B405225C8F68005794B5 /* PinkieTitleBarButtonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A23C48BC223B3EFC00EB4F71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23C48BD223B3EFC00EB4F71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A23C48C1223B3EFF00EB4F71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23C48C2223B3EFF00EB4F71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A23C48C7223B3EFF00EB4F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A23C48C8223B3F0000EB4F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A23C48CA223B3F0000EB4F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 645TP59Q7P;
+				INFOPLIST_FILE = NaviTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiazhiyi.CollectionView.NaviTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = jiazhiyiIosDevelopment;
+				SWIFT_OBJC_BRIDGING_HEADER = "NaviTest/NaviTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A23C48CB223B3F0000EB4F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NaviTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiazhiyi.CollectionView.NaviTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "NaviTest/NaviTest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A23C48AE223B3EFC00EB4F71 /* Build configuration list for PBXProject "NaviTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23C48C7223B3EFF00EB4F71 /* Debug */,
+				A23C48C8223B3F0000EB4F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23C48C9223B3F0000EB4F71 /* Build configuration list for PBXNativeTarget "NaviTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23C48CA223B3F0000EB4F71 /* Debug */,
+				A23C48CB223B3F0000EB4F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A23C48AB223B3EFC00EB4F71 /* Project object */;
+}
